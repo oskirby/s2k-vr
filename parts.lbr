@@ -394,6 +394,30 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
 <wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
 </symbol>
+<symbol name="MAX9926">
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
+<pin name="IN_THRS1" x="-17.78" y="10.16" length="middle"/>
+<pin name="EXT1" x="-17.78" y="7.62" length="middle"/>
+<pin name="BIAS1" x="-17.78" y="5.08" length="middle"/>
+<pin name="COUT1" x="-17.78" y="2.54" length="middle"/>
+<pin name="COUT2" x="-17.78" y="0" length="middle"/>
+<pin name="BIAS2" x="-17.78" y="-2.54" length="middle"/>
+<pin name="EXT2" x="-17.78" y="-5.08" length="middle"/>
+<pin name="IN_THRS2" x="-17.78" y="-7.62" length="middle"/>
+<pin name="IN2+" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="IN2-" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="GND" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="DIRN" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="ZERO_EN" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="IN1-" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="IN1+" x="17.78" y="10.16" length="middle" rot="R180"/>
+<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LTC6903" prefix="IC">
@@ -549,6 +573,36 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAX9926" prefix="IC">
+<gates>
+<gate name="G$1" symbol="MAX9926" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="16-QSOP">
+<connects>
+<connect gate="G$1" pin="BIAS1" pad="3"/>
+<connect gate="G$1" pin="BIAS2" pad="6"/>
+<connect gate="G$1" pin="COUT1" pad="4"/>
+<connect gate="G$1" pin="COUT2" pad="5"/>
+<connect gate="G$1" pin="DIRN" pad="12"/>
+<connect gate="G$1" pin="EXT1" pad="2"/>
+<connect gate="G$1" pin="EXT2" pad="7"/>
+<connect gate="G$1" pin="GND" pad="11"/>
+<connect gate="G$1" pin="IN1+" pad="16"/>
+<connect gate="G$1" pin="IN1-" pad="15"/>
+<connect gate="G$1" pin="IN2+" pad="9"/>
+<connect gate="G$1" pin="IN2-" pad="10"/>
+<connect gate="G$1" pin="IN_THRS1" pad="1"/>
+<connect gate="G$1" pin="IN_THRS2" pad="8"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+<connect gate="G$1" pin="ZERO_EN" pad="13"/>
 </connects>
 <technologies>
 <technology name=""/>
