@@ -1,0 +1,22 @@
+Part,Value,Device,Package,Description,QTY,Note,Digikey,Mouser,URL
+"C2, C7, C10, C13",0.1uF,C-USC0603,C0603,"CAPACITOR, American symbol",4,,$0.03,$0.02,http://www.digikey.ca/product-detail/en/murata-electronics-north-america/GRM188R71E104KA01D/490-1524-1-ND/587865
+"C3, C6, C9, C12",10uF,C-USC0805,C0805,"CAPACITOR, American symbol",4,,$0.18,,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206212385&uq=636087074606932933
+"C4, C5",10pF,C-USC0603,C0603,"CAPACITOR, American symbol",2,,$0.14,$0.06,http://ca.mouser.com/Search/ProductDetail.aspx?R=GCM1885C1H100FA16Dvirtualkey64800000virtualkey81-GCM1885C1H100F16D
+C8,10nF,CAP-0306,C0306,,1,,$0.37,$0.22,http://ca.mouser.com/ProductDetail/Murata/LLL185R71C103MA11L/?qs=%2fha2pyFadujnxdtAPwr9rKygiXG39XQJ%252bTNGpqUqVQ%252b0m68DCROrig%3d%3d
+D1,6.8V,ZENER-DIODESOT23,SOT23,Z-Diode,1,,$0.21,$0.20,http://www.digikey.ca/product-detail/en/on-semiconductor/MMBZ5235BLT1G/MMBZ5235BLT1GOSCT-ND/1139856
+IC1,MKE04Z8VWJ4,MKE04Z8VWJ4,SOIC20S,,1,,$1.20,$1.22,http://www.digikey.ca/product-search/en?keywords=MKE04Z8VWJ4
+IC2,MAX9926,MAX9926,16-QSOP,,1,,$10.16,$10.43,http://www.digikey.ca/product-detail/en/maxim-integrated/MAX9926UAEE-T/MAX9926UAEE-TCT-ND/3879279
+IC3,LTC6903,LTC6903,MS8,,1,,$6.36,,http://www.digikey.ca/product-detail/en/linear-technology/LTC6903HMS8-PBF/LTC6903HMS8-PBF-ND/963093
+IC4,74LVC2G32DP,74LVC2G32DP,TSSOP8,,1,,$0.66,$0.67,"http://www.digikey.ca/product-detail/en/nxp-semiconductors/74LVC2G32DP,125/568-7678-1-ND/2753822"
+JP1,FTSH-105-01-XXX-DV-K,FTSH-105-01-XXX-DV-K,FTSH-105-01-XXX-DV-K,,1,,$4.27,,http://www.digikey.ca/product-detail/en/samtec-inc/FTSH-105-01-F-DV-K/SAM8796-ND/2649974
+LED1,LTST-C19HE1WT,LTST-C19HE1WT,LED-0606,,1,,$0.83,$0.86,http://www.digikey.ca/product-detail/en/lite-on-inc/LTST-C19HE1WT/160-2162-1-ND/4866310
+Q1,12MHz,AVX CX2520DB12000C0WLSC1,SMD 2520,,1,Footprint?,,$1.10,http://ca.mouser.com/ProductDetail/AVX/CX2520DB12000C0WLSC1/?qs=sGAEpiMZZMsBj6bBr9Q9aQHt7hzZA375tg52GYKd4YEjczlUaJjswA%3d%3d
+"R1, R3",1k,R-US_R0603,R0603,"RESISTOR, American symbol",,DNP,,,
+"R4, R5, R11-R14",10k,R-US_R0603,R0603,"RESISTOR, American symbol",6,,,$0.01,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1002Vvirtualkey66720000virtualkey667-ERJ-3EKF1002V
+"R2, R6, R7, R19, R20",0,R-US_R0603,R0603,"RESISTOR, American symbol",5,,$0.01,$0.01,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3GEY0R00Vvirtualkey66720000virtualkey667-ERJ-3GEY0R00V
+"R8, R21, R22",100,R-US_R0603,R0603,"RESISTOR, American symbol",3,,$0.02,$0.01,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1000Vvirtualkey66720000virtualkey667-ERJ-3EKF1000V
+"R9, R10",140,R-US_R0603,R0603,"RESISTOR, American symbol",2,,$0.02,$0.01,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1400Vvirtualkey66720000virtualkey667-ERJ-3EKF1400V
+R15,1M,R-US_R0603,R0603,"RESISTOR, American symbol",1,,$0.02,$0.02,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1004Vvirtualkey66720000virtualkey667-ERJ-3EKF1004V
+,,,,,,,,,
+,,353826-1,,TE Connectivity 31P Male,2,,,$5.41,http://ca.mouser.com/ProductDetail/TE-Connectivity/353826-1/?qs=%2fha2pyFaduiOvs0ACCnVf1llpXVTlArVaqAgPQuykGM%3d
+,,353029-1,,TE Connectivity 26P Male,1,,,$2.54,http://ca.mouser.com/ProductDetail/TE-Connectivity/353029-1/?qs=%2fha2pyFaduiwR3IYeXg1fYlL0uC9DjoJpwNHZK82KE4%3d

@@ -316,6 +316,32 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <wire x1="-0.75" y1="0.3" x2="-0.75" y2="-0.3" width="0.1" layer="21"/>
 <wire x1="0.75" y1="0.3" x2="0.75" y2="-0.3" width="0.1" layer="21"/>
 </package>
+<package name="SMD4-2520">
+<smd name="1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<wire x1="-1.05" y1="1" x2="1.05" y2="1" width="0.1" layer="51"/>
+<wire x1="1.25" y1="0.8" x2="1.25" y2="-0.8" width="0.1" layer="51"/>
+<wire x1="1.05" y1="-1" x2="-1.05" y2="-1" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-0.8" x2="-1.25" y2="0.8" width="0.1" layer="51"/>
+<wire x1="-1.05" y1="1" x2="-1.25" y2="0.8" width="0.1" layer="51" curve="-90"/>
+<wire x1="-1.25" y1="-0.8" x2="-1.05" y2="-1" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.05" y1="-1" x2="1.25" y2="-0.8" width="0.1" layer="51" curve="-90"/>
+<wire x1="1.25" y1="0.8" x2="1.05" y2="1" width="0.1" layer="51" curve="-90"/>
+<rectangle x1="-1.15" y1="-0.9" x2="-0.5" y2="-0.35" layer="51"/>
+<rectangle x1="-1.15" y1="0.35" x2="-0.5" y2="0.9" layer="51"/>
+<rectangle x1="0.5" y1="0.35" x2="1.15" y2="0.9" layer="51"/>
+<polygon width="0" layer="51">
+<vertex x="1.15" y="-0.9"/>
+<vertex x="1.15" y="-0.35"/>
+<vertex x="0.7" y="-0.35"/>
+<vertex x="0.5" y="-0.55"/>
+<vertex x="0.5" y="-0.9"/>
+</polygon>
+<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LTC6903">
@@ -773,6 +799,23 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connect gate="G$1" pin="B" pad="3"/>
 <connect gate="G$1" pin="G" pad="2"/>
 <connect gate="G$1" pin="R" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CX2520DB" prefix="X">
+<gates>
+<gate name="G$1" symbol="CRYSTAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMD4-2520">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
