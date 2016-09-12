@@ -1038,8 +1038,8 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connects>
 <connect gate="G$1" pin="INA+" pad="3"/>
 <connect gate="G$1" pin="INA-" pad="2"/>
-<connect gate="G$1" pin="INB+" pad="6"/>
-<connect gate="G$1" pin="INB-" pad="5"/>
+<connect gate="G$1" pin="INB+" pad="5"/>
+<connect gate="G$1" pin="INB-" pad="6"/>
 <connect gate="G$1" pin="OUTA" pad="1"/>
 <connect gate="G$1" pin="OUTB" pad="7"/>
 <connect gate="G$1" pin="V+" pad="8"/>
@@ -1143,10 +1143,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <connects>
 <connect gate="G$1" pin="1A" pad="1"/>
 <connect gate="G$1" pin="1B" pad="2"/>
-<connect gate="G$1" pin="1Y" pad="3"/>
+<connect gate="G$1" pin="1Y" pad="7"/>
 <connect gate="G$1" pin="2A" pad="5"/>
 <connect gate="G$1" pin="2B" pad="6"/>
-<connect gate="G$1" pin="2Y" pad="7"/>
+<connect gate="G$1" pin="2Y" pad="3"/>
 <connect gate="G$1" pin="GND" pad="4"/>
 <connect gate="G$1" pin="VCC" pad="8"/>
 </connects>
@@ -13805,33 +13805,33 @@ MANUFACTURER:SAMTEC.</description>
 <parts>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device="" value="Analog Interfaces"/>
 <part name="SUPPLY4" library="supply2" deviceset="+5V" device=""/>
-<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="1k">
+<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="DNP" value="DNP"/>
 </part>
 <part name="R20" library="resistor" deviceset="R-US_" device="R0603" value="1k">
 <attribute name="DNP" value="DNP"/>
 </part>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
-<part name="C10" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="C12" library="resistor" deviceset="C-US" device="C0603" value="10uF">
+<part name="C12" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C20" library="resistor" deviceset="C-US" device="C0603" value="10uF">
 <attribute name="DNP" value="DNP"/>
 </part>
-<part name="C4" library="resistor" deviceset="C-US" device="C0603" value="10pF"/>
-<part name="C3" library="resistor" deviceset="C-US" device="C0603" value="10pF"/>
+<part name="C1" library="resistor" deviceset="C-US" device="C0603" value="10pF"/>
+<part name="C2" library="resistor" deviceset="C-US" device="C0603" value="10pF"/>
 <part name="SUPPLY7" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY8" library="supply2" deviceset="GND" device=""/>
-<part name="C1" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
-<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="C3" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY9" library="supply2" deviceset="+5V" device=""/>
 <part name="R1" library="resistor" deviceset="R-US_" device="R0603" value="1M"/>
-<part name="C6" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
+<part name="C8" library="resistor" deviceset="C-US" device="C0805" value="10uF"/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
-<part name="C13" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
+<part name="C21" library="resistor" deviceset="C-US" device="C0603" value="0.1uF">
 <attribute name="DNP" value="DNP"/>
 </part>
-<part name="C8" library="parts" deviceset="CAP-0306" device="" value="10nF"/>
+<part name="C6" library="parts" deviceset="CAP-0306" device="" value="10nF"/>
 <part name="C7" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="C2" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C4" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="C11" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="5V" library="parts" deviceset="SIGPAD-P1-20" device="" value="5V"/>
 <part name="GND" library="parts" deviceset="SIGPAD-P1-20" device=""/>
@@ -13839,10 +13839,10 @@ MANUFACTURER:SAMTEC.</description>
 <part name="TDC" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="CM+" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="CM-" library="parts" deviceset="SIGPAD-P1-20" device=""/>
-<part name="CK-" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="CK+" library="parts" deviceset="SIGPAD-P1-20" device=""/>
+<part name="CK-" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="SUPPLY13" library="supply2" deviceset="+5V" device=""/>
-<part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R27" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" deviceset="+5V" device=""/>
 <part name="CM1" library="testpad" deviceset="TP" device="B2,54"/>
@@ -13853,63 +13853,61 @@ MANUFACTURER:SAMTEC.</description>
 <part name="CMP_CLK" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="CMP_TDC" library="testpad" deviceset="TP" device="B2,54"/>
 <part name="BIAS" library="testpad" deviceset="TP" device="B2,54"/>
-<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
+<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="D1" library="diode" deviceset="ZENER-DIODE" device="SOT23" value="6.8V"/>
 <part name="SGND" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="X1" library="parts" deviceset="CX2520DB" device="" value="12MHz"/>
-<part name="R15" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R12" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="IC2" library="parts" deviceset="MAX9926" device=""/>
 <part name="SUPPLY6" library="supply2" deviceset="GND" device=""/>
-<part name="R21" library="resistor" deviceset="R-US_" device="R0603" value="0">
+<part name="R22" library="resistor" deviceset="R-US_" device="R0603" value="0">
 <attribute name="DNP" value="DNP"/>
 </part>
 <part name="R9" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
 <part name="LED1" library="parts" deviceset="LTST-C19HE1WT" device=""/>
-<part name="R5" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
-<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="140"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R7" library="resistor" deviceset="R-US_" device="R0603" value="140"/>
+<part name="R6" library="resistor" deviceset="R-US_" device="R0603" value="140"/>
 <part name="JP1" library="FTSH-105-XX-XX-DV-K" deviceset="FTSH-105-01-XXX-DV-K" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="IC3" library="parts" deviceset="AD5175BRMZ" device=""/>
-<part name="C9" library="resistor" deviceset="C-US" device="C0603" value="1uF"/>
+<part name="C10" library="resistor" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="S_IAT" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="SUPPLY17" library="supply2" deviceset="+5V" device=""/>
-<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R4" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
 <part name="SUPPLY18" library="supply2" deviceset="GND" device=""/>
-<part name="R19" library="resistor" deviceset="R-US_" device="R0603" value="270"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="270"/>
 <part name="K_IAT" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="C5" library="resistor" deviceset="C-US" device="C0603" value="1uF"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="10k">
+<part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="DNP" value="DNP"/>
 </part>
 <part name="U$1" library="parts" deviceset="ADA4177-2ARMZ" device=""/>
 <part name="ECT" library="parts" deviceset="SIGPAD-P1-20" device=""/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
-<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
+<part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="2.2k"/>
+<part name="R14" library="resistor" deviceset="R-US_" device="R0603" value="100"/>
 <part name="CKP" library="parts" deviceset="SIGPAD-P1-20" device=""/>
 <part name="SUPPLY14" library="supply2" deviceset="+5V" device=""/>
 <part name="SUPPLY19" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="supply2" deviceset="GND" device=""/>
-<part name="C14" library="resistor" deviceset="CPOL-US" device="D/7343-31R" value="47uF"/>
+<part name="C9" library="resistor" deviceset="CPOL-US" device="D/7343-31R" value="47uF"/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device="" value="Processor and Digital"/>
 <part name="IC5" library="parts" deviceset="MKE02Z16LVC" device=""/>
-<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="0">
-<attribute name="DNP" value="DNP"/>
-</part>
+<part name="R10" library="resistor" deviceset="R-US_" device="R0603" value="0"/>
 <part name="IC1" library="parts" deviceset="LMV321ILT" device=""/>
-<part name="R11" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
-<part name="R26" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="C15" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
-<part name="C16" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0603" value="10k"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="1k"/>
+<part name="C23" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
+<part name="C22" library="resistor" deviceset="C-US" device="C0603" value="0.1uF"/>
 <part name="SUPPLY21" library="supply2" deviceset="+5V" device=""/>
 <part name="THR" library="testpad" deviceset="TP" device="B2,54"/>
-<part name="R18" library="resistor" deviceset="R-US_" device="R0603" value="10k">
+<part name="R25" library="resistor" deviceset="R-US_" device="R0603" value="10k">
 <attribute name="DNP" value="DNP"/>
 </part>
 <part name="JP2" library="parts" deviceset="PINHD-1X6" device="/90"/>
@@ -13928,8 +13926,8 @@ MANUFACTURER:SAMTEC.</description>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="IC5" gate="G$1" x="116.84" y="104.14"/>
-<instance part="C4" gate="G$1" x="83.82" y="81.28"/>
-<instance part="C3" gate="G$1" x="73.66" y="81.28"/>
+<instance part="C1" gate="G$1" x="83.82" y="81.28"/>
+<instance part="C2" gate="G$1" x="73.66" y="81.28"/>
 <instance part="SUPPLY8" gate="GND" x="78.74" y="68.58" rot="MR0"/>
 <instance part="R1" gate="G$1" x="78.74" y="93.98" rot="R180"/>
 <instance part="X1" gate="G$1" x="78.74" y="86.36" rot="MR0"/>
@@ -13939,34 +13937,34 @@ MANUFACTURER:SAMTEC.</description>
 <instance part="SUPPLY16" gate="+5V" x="25.4" y="60.96" rot="MR0"/>
 <instance part="CKP_CLK" gate="G$1" x="88.9" y="40.64" rot="MR0"/>
 <instance part="CMP_TDC" gate="G$1" x="76.2" y="58.42" rot="MR0"/>
-<instance part="R12" gate="G$1" x="68.58" y="40.64" rot="MR180"/>
-<instance part="R13" gate="G$1" x="68.58" y="53.34" rot="MR180"/>
-<instance part="R15" gate="G$1" x="162.56" y="35.56"/>
-<instance part="R16" gate="G$1" x="20.32" y="50.8" rot="MR0"/>
-<instance part="R25" gate="G$1" x="20.32" y="38.1" rot="MR0"/>
+<instance part="R13" gate="G$1" x="68.58" y="40.64" rot="MR180"/>
+<instance part="R11" gate="G$1" x="68.58" y="53.34" rot="MR180"/>
+<instance part="R5" gate="G$1" x="162.56" y="35.56"/>
+<instance part="R12" gate="G$1" x="20.32" y="50.8" rot="MR0"/>
+<instance part="R14" gate="G$1" x="20.32" y="38.1" rot="MR0"/>
 <instance part="CKP" gate="1" x="10.16" y="38.1" rot="MR180"/>
 <instance part="SUPPLY2" gate="GND" x="76.2" y="30.48" rot="MR0"/>
 <instance part="CMP_CLK" gate="G$1" x="93.98" y="43.18" rot="MR180"/>
-<instance part="SUPPLY9" gate="+5V" x="86.36" y="149.86"/>
-<instance part="LED1" gate="G$1" x="86.36" y="139.7"/>
-<instance part="R5" gate="G$1" x="91.44" y="129.54" rot="R270"/>
-<instance part="R6" gate="G$1" x="81.28" y="116.84" rot="R270"/>
-<instance part="R7" gate="G$1" x="86.36" y="121.92" rot="R270"/>
-<instance part="R14" gate="G$1" x="228.6" y="154.94"/>
+<instance part="SUPPLY9" gate="+5V" x="86.36" y="147.32"/>
+<instance part="LED1" gate="G$1" x="86.36" y="137.16"/>
+<instance part="R8" gate="G$1" x="91.44" y="127" rot="R270"/>
+<instance part="R7" gate="G$1" x="81.28" y="116.84" rot="R270"/>
+<instance part="R6" gate="G$1" x="86.36" y="121.92" rot="R270"/>
+<instance part="R15" gate="G$1" x="228.6" y="154.94"/>
 <instance part="SUPPLY13" gate="+5V" x="241.3" y="160.02"/>
-<instance part="R17" gate="G$1" x="228.6" y="129.54"/>
+<instance part="R27" gate="G$1" x="228.6" y="129.54"/>
 <instance part="JP1" gate="G$1" x="228.6" y="142.24" rot="MR0"/>
 <instance part="SUPPLY11" gate="GND" x="241.3" y="124.46"/>
 <instance part="SUPPLY7" gate="+5V" x="58.42" y="111.76" rot="MR0"/>
-<instance part="C1" gate="G$1" x="58.42" y="101.6" rot="MR180"/>
-<instance part="C2" gate="G$1" x="68.58" y="101.6" rot="MR180"/>
+<instance part="C3" gate="G$1" x="58.42" y="101.6" rot="MR180"/>
+<instance part="C4" gate="G$1" x="68.58" y="101.6" rot="MR180"/>
 <instance part="SUPPLY20" gate="GND" x="68.58" y="93.98" rot="MR0"/>
 <instance part="5V" gate="1" x="15.24" y="152.4" rot="MR180"/>
 <instance part="GND" gate="1" x="15.24" y="139.7" rot="MR180"/>
 <instance part="D1" gate="G$1" x="35.56" y="144.78" rot="MR90"/>
 <instance part="SUPPLY14" gate="+5V" x="35.56" y="154.94"/>
 <instance part="SUPPLY19" gate="GND" x="35.56" y="137.16"/>
-<instance part="C14" gate="G$1" x="45.72" y="147.32" rot="MR0"/>
+<instance part="C9" gate="G$1" x="45.72" y="147.32" rot="MR0"/>
 <instance part="JP2" gate="A" x="233.68" y="106.68" rot="MR180"/>
 <instance part="SUPPLY22" gate="GND" x="223.52" y="93.98"/>
 <instance part="SUPPLY23" gate="+5V" x="223.52" y="116.84"/>
@@ -13980,9 +13978,9 @@ MANUFACTURER:SAMTEC.</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="2"/>
+<pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="76.2" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="76.2" x2="73.66" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
@@ -14000,7 +13998,7 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="GND" pin="GND"/>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="76.2" y1="33.02" x2="76.2" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 </segment>
@@ -14018,14 +14016,14 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="238.76" y1="142.24" x2="241.3" y2="142.24" width="0.1524" layer="91"/>
 <junction x="241.3" y="142.24"/>
 <junction x="241.3" y="137.16"/>
-<pinref part="R17" gate="G$1" pin="2"/>
+<pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="129.54" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 <junction x="241.3" y="129.54"/>
 </segment>
 <segment>
-<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="99.06" x2="58.42" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <junction x="68.58" y="99.06"/>
 <pinref part="SUPPLY20" gate="GND" pin="GND"/>
 <wire x1="68.58" y1="96.52" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
@@ -14044,7 +14042,7 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="35.56" y1="142.24" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="SUPPLY19" gate="GND" pin="GND"/>
 <junction x="35.56" y="139.7"/>
-<pinref part="C14" gate="G$1" pin="-"/>
+<pinref part="C9" gate="G$1" pin="-"/>
 <wire x1="45.72" y1="142.24" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="139.7" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
 </segment>
@@ -14063,7 +14061,7 @@ MANUFACTURER:SAMTEC.</description>
 <net name="EXTAL" class="0">
 <segment>
 <pinref part="X1" gate="G$1" pin="2"/>
-<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="86.36" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="86.36" x2="73.66" y2="93.98" width="0.1524" layer="91"/>
@@ -14076,7 +14074,7 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="XTAL" class="0">
 <segment>
-<pinref part="C4" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="86.36" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="83.82" y="86.36"/>
@@ -14111,7 +14109,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="JP1" gate="G$1" pin="10"/>
 <label x="195.58" y="137.16" size="1.778" layer="95"/>
 <wire x1="218.44" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="137.16" x2="195.58" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="154.94" x2="213.36" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="154.94" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
@@ -14128,10 +14126,10 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="CMP_EDGE" class="0">
 <segment>
-<label x="152.4" y="129.54" size="1.778" layer="95" rot="MR0"/>
+<label x="152.4" y="137.16" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IC5" gate="G$1" pin="PTC5"/>
-<wire x1="114.3" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="124.46" x2="114.3" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="124.46" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -14144,22 +14142,22 @@ MANUFACTURER:SAMTEC.</description>
 <segment>
 <pinref part="SUPPLY9" gate="+5V" pin="+5V"/>
 <pinref part="LED1" gate="G$1" pin="ANODE"/>
-<wire x1="86.36" y1="144.78" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="142.24" x2="86.36" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY13" gate="+5V" pin="+5V"/>
 <wire x1="238.76" y1="147.32" x2="241.3" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="147.32" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="154.94" x2="241.3" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="154.94" x2="241.3" y2="154.94" width="0.1524" layer="91"/>
 <junction x="241.3" y="154.94"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="+5V" pin="+5V"/>
-<pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="106.68" x2="58.42" y2="106.68" width="0.1524" layer="91"/>
 <junction x="58.42" y="106.68"/>
 <pinref part="IC5" gate="G$1" pin="VDD"/>
@@ -14180,7 +14178,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="SUPPLY14" gate="+5V" pin="+5V"/>
 <junction x="35.56" y="152.4"/>
 <wire x1="35.56" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="C14" gate="G$1" pin="+"/>
+<pinref part="C9" gate="G$1" pin="+"/>
 <wire x1="45.72" y1="152.4" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -14219,30 +14217,30 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="93.98" y="48.26"/>
 </segment>
 </net>
-<net name="CRANK_OUT" class="0">
+<net name="ECT_OUT" class="0">
 <segment>
 <pinref part="DASH" gate="1" pin="P"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="35.56" x2="167.64" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAM_OUT" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="TDC" gate="1" pin="P"/>
 <wire x1="15.24" y1="50.8" x2="12.7" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="CRANK_OUT" class="0">
 <segment>
 <pinref part="CKP" gate="1" pin="P"/>
-<pinref part="R25" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAM_TDC" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="53.34" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="55.88" x2="76.2" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="CMP_TDC" gate="G$1" pin="TP"/>
@@ -14265,8 +14263,8 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="IC5" gate="G$1" pin="PTB5"/>
 <wire x1="106.68" y1="81.28" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="91.44" y1="124.46" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="121.92" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -14301,10 +14299,10 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="THR_PWM" class="0">
 <segment>
-<wire x1="121.92" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
-<label x="152.4" y="132.08" size="1.778" layer="95" rot="MR0"/>
+<wire x1="121.92" y1="129.54" x2="152.4" y2="129.54" width="0.1524" layer="91"/>
+<label x="152.4" y="129.54" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IC5" gate="G$1" pin="PTA0"/>
-<wire x1="121.92" y1="124.46" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="124.46" x2="121.92" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UART_TX" class="0">
@@ -14315,36 +14313,36 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PTB1"/>
-<label x="172.72" y="93.98" size="1.778" layer="95" rot="MR0"/>
-<wire x1="137.16" y1="93.98" x2="172.72" y2="93.98" width="0.1524" layer="91"/>
+<label x="152.4" y="93.98" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CMP_THR" class="0">
 <segment>
-<wire x1="116.84" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
-<label x="152.4" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<wire x1="116.84" y1="134.62" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
+<label x="152.4" y="134.62" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IC5" gate="G$1" pin="PTC6"/>
-<wire x1="116.84" y1="137.16" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="134.62" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CKP_THR" class="0">
 <segment>
-<wire x1="119.38" y1="134.62" x2="152.4" y2="134.62" width="0.1524" layer="91"/>
-<label x="152.4" y="134.62" size="1.778" layer="95" rot="MR0"/>
+<wire x1="119.38" y1="132.08" x2="152.4" y2="132.08" width="0.1524" layer="91"/>
+<label x="152.4" y="132.08" size="1.778" layer="95" rot="MR0"/>
 <pinref part="IC5" gate="G$1" pin="PTC7"/>
-<wire x1="119.38" y1="124.46" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="124.46" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="B"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="91.44" y1="137.16" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="134.62" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED_G" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="111.76" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="PTD0"/>
 <wire x1="93.98" y1="109.22" x2="81.28" y2="109.22" width="0.1524" layer="91"/>
@@ -14352,7 +14350,7 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="LED_R" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="86.36" y1="116.84" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="PTD1"/>
 <wire x1="93.98" y1="111.76" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
@@ -14376,7 +14374,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="JP1" gate="G$1" pin="6"/>
 <wire x1="218.44" y1="142.24" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="215.9" y1="139.7" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="129.54" x2="223.52" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="8"/>
@@ -14392,8 +14390,8 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PTB0"/>
-<wire x1="137.16" y1="96.52" x2="172.72" y2="96.52" width="0.1524" layer="91"/>
-<label x="172.72" y="96.52" size="1.778" layer="95" rot="MR0"/>
+<wire x1="137.16" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
+<label x="152.4" y="96.52" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="UART_CTS" class="0">
@@ -14416,43 +14414,43 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="PTB2"/>
-<wire x1="124.46" y1="81.28" x2="142.24" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="81.28" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="91.44" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
-<label x="172.72" y="91.44" size="1.778" layer="95" rot="MR0"/>
+<wire x1="124.46" y1="81.28" x2="139.7" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="81.28" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<label x="152.4" y="91.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="G"/>
-<wire x1="86.36" y1="127" x2="86.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="127" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="R"/>
-<wire x1="81.28" y1="121.92" x2="81.28" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="121.92" x2="81.28" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="IC6" gate="G$1" pin="Y"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="35.56" x2="157.48" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="IC7" gate="G$1" pin="1Y"/>
 <wire x1="25.4" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="IC7" gate="G$1" pin="2Y"/>
 <wire x1="25.4" y1="38.1" x2="30.48" y2="38.1" width="0.1524" layer="91"/>
 </segment>
@@ -14460,14 +14458,14 @@ MANUFACTURER:SAMTEC.</description>
 <net name="N$6" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="1A"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="2A"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14481,80 +14479,78 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="172.72" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="66.04" y1="30.48" x2="66.04" y2="83.82" width="0.1524" layer="97" style="shortdash"/>
 <text x="116.84" y="76.2" size="1.778" layer="97">DNP</text>
-<wire x1="220.98" y1="134.62" x2="220.98" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="220.98" y1="114.3" x2="208.28" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="220.98" y1="134.62" x2="220.98" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="220.98" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="223.52" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="220.98" y1="134.62" x2="208.28" y2="134.62" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="208.28" y1="134.62" x2="208.28" y2="114.3" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="208.28" y1="134.62" x2="208.28" y2="111.76" width="0.1524" layer="97" style="shortdash"/>
 <text x="218.44" y="116.84" size="1.778" layer="97" rot="MR0">DNP</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="S_IAT" gate="1" x="35.56" y="152.4"/>
 <instance part="SUPPLY17" gate="+5V" x="93.98" y="167.64"/>
-<instance part="R2" gate="G$1" x="60.96" y="162.56" rot="R180"/>
+<instance part="R4" gate="G$1" x="60.96" y="162.56" rot="R180"/>
 <instance part="SUPPLY18" gate="GND" x="93.98" y="127"/>
 <instance part="C5" gate="G$1" x="101.6" y="157.48"/>
 <instance part="R3" gate="G$1" x="58.42" y="152.4" rot="R180"/>
 <instance part="U$1" gate="G$1" x="78.74" y="144.78"/>
 <instance part="ECT" gate="1" x="35.56" y="142.24"/>
-<instance part="R24" gate="G$1" x="58.42" y="142.24" rot="R180"/>
+<instance part="R2" gate="G$1" x="58.42" y="142.24" rot="R180"/>
 <instance part="CM+" gate="1" x="12.7" y="124.46"/>
-<instance part="R22" gate="G$1" x="83.82" y="63.5" rot="R90">
+<instance part="R21" gate="G$1" x="83.82" y="63.5" rot="R90">
 <attribute name="DNP" x="83.82" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R20" gate="G$1" x="93.98" y="48.26" rot="R270">
 <attribute name="DNP" x="93.98" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
-<instance part="C12" gate="G$1" x="83.82" y="48.26">
+<instance part="C20" gate="G$1" x="83.82" y="48.26">
 <attribute name="DNP" x="83.82" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="12.7" y="101.6"/>
+<instance part="C8" gate="G$1" x="12.7" y="101.6"/>
 <instance part="SUPPLY12" gate="GND" x="27.94" y="88.9"/>
-<instance part="C13" gate="G$1" x="73.66" y="48.26">
+<instance part="C21" gate="G$1" x="73.66" y="48.26">
 <attribute name="DNP" x="73.66" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C8" gate="G$1" x="27.94" y="101.6"/>
+<instance part="C6" gate="G$1" x="27.94" y="101.6"/>
 <instance part="C7" gate="G$1" x="20.32" y="101.6"/>
 <instance part="CM-" gate="1" x="12.7" y="119.38"/>
-<instance part="CK-" gate="1" x="12.7" y="73.66"/>
-<instance part="CK+" gate="1" x="12.7" y="78.74"/>
+<instance part="CK+" gate="1" x="12.7" y="73.66"/>
+<instance part="CK-" gate="1" x="12.7" y="78.74"/>
 <instance part="CM1" gate="G$1" x="106.68" y="106.68"/>
 <instance part="CK1" gate="G$1" x="111.76" y="99.06" rot="R180"/>
 <instance part="BIAS" gate="G$1" x="73.66" y="60.96"/>
 <instance part="SGND" gate="1" x="12.7" y="86.36" rot="R90"/>
 <instance part="IC2" gate="G$1" x="73.66" y="101.6" rot="MR0"/>
 <instance part="SUPPLY6" gate="GND" x="73.66" y="35.56"/>
-<instance part="R21" gate="G$1" x="76.2" y="71.12">
+<instance part="R22" gate="G$1" x="76.2" y="71.12">
 <attribute name="DNP" x="76.2" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="43.18" y="101.6"/>
 <instance part="SUPPLY10" gate="+5V" x="35.56" y="111.76"/>
-<instance part="R10" gate="G$1" x="53.34" y="58.42" rot="R270">
-<attribute name="DNP" x="53.34" y="58.42" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
+<instance part="R10" gate="G$1" x="53.34" y="58.42" rot="R270"/>
 <instance part="IC1" gate="G$1" x="121.92" y="55.88" rot="MR0"/>
-<instance part="R11" gate="G$1" x="149.86" y="58.42" rot="R180"/>
-<instance part="R26" gate="G$1" x="165.1" y="58.42" rot="R180"/>
-<instance part="C15" gate="G$1" x="149.86" y="68.58" rot="R270"/>
-<instance part="C16" gate="G$1" x="142.24" y="53.34"/>
+<instance part="R24" gate="G$1" x="149.86" y="58.42" rot="R180"/>
+<instance part="R23" gate="G$1" x="165.1" y="58.42" rot="R180"/>
+<instance part="C23" gate="G$1" x="149.86" y="68.58" rot="R270"/>
+<instance part="C22" gate="G$1" x="142.24" y="53.34"/>
 <instance part="SUPPLY21" gate="+5V" x="83.82" y="76.2"/>
 <instance part="THR" gate="G$1" x="137.16" y="76.2"/>
-<instance part="R18" gate="G$1" x="101.6" y="48.26" rot="R270">
+<instance part="R25" gate="G$1" x="101.6" y="48.26" rot="R270">
 <attribute name="DNP" x="101.6" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="SUPPLY4" gate="+5V" x="193.04" y="149.86" rot="MR0"/>
-<instance part="SUPPLY1" gate="GND" x="205.74" y="114.3" rot="MR0"/>
-<instance part="C10" gate="G$1" x="213.36" y="139.7" rot="MR0"/>
+<instance part="SUPPLY1" gate="GND" x="205.74" y="111.76" rot="MR0"/>
+<instance part="C12" gate="G$1" x="213.36" y="139.7" rot="MR0"/>
 <instance part="C11" gate="G$1" x="205.74" y="139.7" rot="MR0"/>
 <instance part="SDA" gate="G$1" x="149.86" y="142.24" rot="MR0"/>
 <instance part="SCL" gate="G$1" x="154.94" y="142.24" rot="MR0"/>
 <instance part="SUPPLY3" gate="GND" x="160.02" y="121.92" rot="MR0"/>
 <instance part="IC3" gate="G$1" x="177.8" y="132.08" rot="MR0"/>
-<instance part="C9" gate="G$1" x="193.04" y="121.92" rot="MR0"/>
-<instance part="R19" gate="G$1" x="228.6" y="132.08" rot="MR180"/>
+<instance part="C10" gate="G$1" x="200.66" y="121.92" rot="MR0"/>
+<instance part="R16" gate="G$1" x="228.6" y="132.08" rot="MR180"/>
 <instance part="K_IAT" gate="1" x="238.76" y="132.08" rot="MR0"/>
-<instance part="R23" gate="G$1" x="213.36" y="124.46" rot="MR270">
+<instance part="R26" gate="G$1" x="213.36" y="124.46" rot="MR270">
 <attribute name="DNP" x="213.36" y="124.46" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 </instances>
@@ -14567,7 +14563,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="U$1" gate="G$1" pin="V+"/>
 <wire x1="88.9" y1="154.94" x2="93.98" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="154.94" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="162.56" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 <junction x="93.98" y="162.56"/>
@@ -14577,14 +14573,14 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <wire x1="35.56" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="104.14" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="106.68" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="106.68" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="106.68" x2="12.7" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="20.32" y1="104.14" x2="20.32" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="104.14" x2="27.94" y2="106.68" width="0.1524" layer="91"/>
 <junction x="20.32" y="106.68"/>
 <junction x="27.94" y="106.68"/>
@@ -14598,11 +14594,11 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="35.56" y="106.68"/>
 </segment>
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
 <wire x1="121.92" y1="66.04" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="71.12" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="71.12" x2="81.28" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="68.58" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
 <junction x="83.82" y="71.12"/>
@@ -14611,7 +14607,7 @@ MANUFACTURER:SAMTEC.</description>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="+5V" pin="+5V"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="144.78" x2="193.04" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="VDD"/>
@@ -14637,10 +14633,10 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="93.98" y="137.16"/>
 </segment>
 <segment>
-<pinref part="C6" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="96.52" x2="12.7" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="C8" gate="G$1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="93.98" x2="27.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="93.98" x2="27.94" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
@@ -14659,10 +14655,10 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="12.7" y1="93.98" x2="12.7" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C21" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="40.64" x2="73.66" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C20" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="43.18" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="73.66" y1="40.64" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
@@ -14678,35 +14674,36 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="IC1" gate="G$1" pin="VDD"/>
 <wire x1="121.92" y1="45.72" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="40.64" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="40.64" x2="93.98" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="48.26" x2="142.24" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="40.64" x2="121.92" y2="40.64" width="0.1524" layer="91"/>
 <junction x="121.92" y="40.64"/>
-<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="43.18" x2="101.6" y2="40.64" width="0.1524" layer="91"/>
 <junction x="101.6" y="40.64"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="2"/>
 <pinref part="IC3" gate="G$1" pin="VSS"/>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C12" gate="G$1" pin="2"/>
 <junction x="195.58" y="134.62"/>
 <pinref part="IC3" gate="G$1" pin="A"/>
 <wire x1="195.58" y1="134.62" x2="193.04" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="134.62" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<junction x="205.74" y="116.84"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="134.62" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<junction x="205.74" y="114.3"/>
 <wire x1="213.36" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <junction x="205.74" y="134.62"/>
 <wire x1="205.74" y1="134.62" x2="195.58" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="134.62" x2="195.58" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="129.54" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="119.38" x2="213.36" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="116.84" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="R26" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="119.38" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="114.3" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="114.3" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="ADDR"/>
@@ -14779,7 +14776,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="S_IAT" gate="1" pin="P"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="152.4" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="152.4" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="162.56" x2="50.8" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="162.56" x2="50.8" y2="152.4" width="0.1524" layer="91"/>
@@ -14789,18 +14786,18 @@ MANUFACTURER:SAMTEC.</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="INB+"/>
-<pinref part="R24" gate="G$1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="142.24" x2="63.5" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="ECT" gate="1" pin="P"/>
-<pinref part="R24" gate="G$1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="142.24" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CRANK_IN+" class="0">
+<net name="CAM_IN+" class="0">
 <segment>
 <pinref part="CM+" gate="1" pin="P"/>
 <wire x1="15.24" y1="124.46" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
@@ -14809,25 +14806,25 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="45.72" y1="111.76" x2="45.72" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAM_IN-" class="0">
+<net name="CRANK_IN+" class="0">
 <segment>
 <wire x1="15.24" y1="73.66" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="CK-" gate="1" pin="P"/>
+<pinref part="CK+" gate="1" pin="P"/>
 <pinref part="IC2" gate="G$1" pin="IN2+"/>
 <wire x1="55.88" y1="93.98" x2="45.72" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="93.98" x2="45.72" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="CAM_IN+" class="0">
+<net name="CRANK_IN-" class="0">
 <segment>
 <wire x1="55.88" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="78.74" x2="15.24" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="IN2-"/>
-<pinref part="CK+" gate="1" pin="P"/>
+<pinref part="CK-" gate="1" pin="P"/>
 </segment>
 </net>
-<net name="CRANK_IN-" class="0">
+<net name="CAM_IN-" class="0">
 <segment>
 <wire x1="43.18" y1="109.22" x2="55.88" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
@@ -14838,10 +14835,10 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="VR_BIAS" class="0">
 <segment>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="55.88" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="50.8" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C21" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="50.8" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="55.88" x2="93.98" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -14854,7 +14851,7 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="93.98" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="55.88" x2="93.98" y2="99.06" width="0.1524" layer="91"/>
 <junction x="93.98" y="99.06"/>
-<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="58.42" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="BIAS" gate="G$1" pin="TP"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="55.88" width="0.1524" layer="91"/>
@@ -14876,7 +14873,7 @@ MANUFACTURER:SAMTEC.</description>
 <wire x1="53.34" y1="104.14" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="63.5" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="R21" gate="G$1" pin="1"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="71.12" x2="53.34" y2="71.12" width="0.1524" layer="91"/>
 <junction x="53.34" y="71.12"/>
 </segment>
@@ -14884,9 +14881,9 @@ MANUFACTURER:SAMTEC.</description>
 <net name="N$8" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="IN+"/>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="58.42" x2="144.78" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="55.88" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
 <junction x="142.24" y="58.42"/>
@@ -14896,18 +14893,18 @@ MANUFACTURER:SAMTEC.</description>
 <segment>
 <wire x1="170.18" y1="58.42" x2="185.42" y2="58.42" width="0.1524" layer="91"/>
 <label x="185.42" y="58.42" size="1.778" layer="95" rot="MR0"/>
-<pinref part="R26" gate="G$1" pin="1"/>
+<pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
 <wire x1="157.48" y1="58.42" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R26" gate="G$1" pin="2"/>
+<pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="160.02" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
 <junction x="157.48" y="58.42"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R24" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="58.42" x2="157.48" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="1"/>
 <wire x1="152.4" y1="68.58" x2="157.48" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14922,7 +14919,7 @@ MANUFACTURER:SAMTEC.</description>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="101.6" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="68.58" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="2"/>
+<pinref part="C23" gate="G$1" pin="2"/>
 <wire x1="144.78" y1="68.58" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="96.52" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
@@ -14933,7 +14930,7 @@ MANUFACTURER:SAMTEC.</description>
 <junction x="137.16" y="68.58"/>
 <pinref part="THR" gate="G$1" pin="TP"/>
 <wire x1="137.16" y1="73.66" x2="137.16" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="R18" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="53.34" x2="101.6" y2="55.88" width="0.1524" layer="91"/>
 <junction x="101.6" y="55.88"/>
 </segment>
@@ -14983,24 +14980,25 @@ MANUFACTURER:SAMTEC.</description>
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="233.68" y1="132.08" x2="236.22" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="K_IAT" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="EXT_CAP"/>
-<wire x1="193.04" y1="124.46" x2="193.04" y2="127" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="127" x2="200.66" y2="127" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="127" x2="200.66" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="W"/>
-<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R16" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="132.08" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="1"/>
+<pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="213.36" y1="132.08" x2="223.52" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="132.08" x2="213.36" y2="129.54" width="0.1524" layer="91"/>
 <junction x="213.36" y="132.08"/>
