@@ -1,0 +1,32 @@
+Part,Value,Device,Package,Description,QTY,DNP,Source,Price,URL
+"C1, C2",10pF,C-USC0603,C0603,"CAPACITOR, American symbol",2,,Digikey,0.002,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206778189&uq=636093109305388154
+"C3, C8, C12",10uF,C-USC0805,C0805,"CAPACITOR, American symbol",3,,Digikey,0.178,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206778374&uq=636093112391208154
+"C4, C7, C11",0.1uF,C-USC0603,C0603,"CAPACITOR, American symbol",3,,Digikey,0.0096,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206778629&uq=636093114677128154
+"C5, C10",1uF,C-USC0603,C0603,"CAPACITOR, American symbol",2,,Digikey,0.0684,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206778750&uq=636093116605357225
+C6,10nF,CAP-0306,C0306,,1,,Mouser,0.202,http://ca.mouser.com/Search/ProductDetail.aspx?R=LLL185R71E103MA01Lvirtualkey64800000virtualkey81-LLL185R71E103M01L
+C9,47uF,CPOL-USD/7343-31R,D/7343-31R,"POLARIZED CAPACITOR, American symbol",1,,Digikey,0.928,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206778990&uq=636093121171611053
+C20,10uF,C-USC0603,C0603,"CAPACITOR, American symbol",1,DNP,,,
+"C21, C22, C23",0.1uF,C-USC0603,C0603,"CAPACITOR, American symbol",3,DNP,,,
+D1,6.8V,ZENER-DIODESOT23,SOT23,Z-Diode,,,Mouser,0.435,http://ca.mouser.com/Search/ProductDetail.aspx?R=GSOT05C-HG3-08virtualkey61370000virtualkey78-GSOT05C-HG3-08
+IC1,LMV321ILT,LMV321ILT,SOT23-5L,,1,DNP,Digikey,0.53,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206774482&uq=636093058709678154
+IC2,MAX9926,MAX9926,16-QSOP,,1,,Digikey,10.16,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206780093&uq=636093141044631303
+IC3,AD5175BRMZ,AD5175BRMZ,MSOP10,,1,,Digikey,5.62,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206780133&uq=636093141044631303
+IC5,MKE02Z16LVC,MKE02Z16LVC,LQFP32-7X7,,1,,Digikey,2.138,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206775258&uq=636093069196921053
+IC6,74LVC1G17SE,74LVC1G17SE,SOT353,,1,,Mouser,0.274,http://ca.mouser.com/Search/ProductDetail.aspx?R=74LVC1G17SE-7virtualkey62110000virtualkey621-74LVC1G17SE-7
+IC7,74LVC2G32DP,74LVC2G32DP,TSSOP8,,1,,Digikey,0.53,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206773601&uq=636093054762521053
+IC8,ADA4177-2ARMZ,ADA4177-2ARMZ,MSOP08,,1,,Mouser,5.7,http://ca.mouser.com/Search/ProductDetail.aspx?R=ADA4177-2ARMZvirtualkey58430000virtualkey584-ADA4177-2ARMZ
+JP1,FTSH-105-01-XXX-DV-K,FTSH-105-01-XXX-DV-K,FTSH-105-01-XXX-DV-K,,1,,Digikey,3.6,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206772141&uq=636093054762511053
+JP2,PINHD-1X6/90,PINHD-1X6/90,1X06/90,PIN HEADER,,,Digikey,1.3,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206775741&uq=636093076474391053
+LED1,LTST-C19HE1WT,LTST-C19HE1WT,LED-0606,,,,Digikey,0.599,http://www.digikey.ca/scripts/DkSearch/dksus.dll?Detail&itemSeq=206775298&uq=636093069841316287
+R1,1M,R-US_R0603,R0603,"RESISTOR, American symbol",1,,Mouser,0.02,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1004Vvirtualkey66720000virtualkey667-ERJ-3EKF1004V
+"R2, R3, R4",2.2k,R-US_R0603,R0603,"RESISTOR, American symbol",3,,Mouser,0.009,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF2201Vvirtualkey66720000virtualkey667-ERJ-3EKF2201V
+"R5, R8, R12, R14",100,R-US_R0603,R0603,"RESISTOR, American symbol",4,,Mouser,0.009,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1000Vvirtualkey66720000virtualkey667-ERJ-3EKF1000V
+"R6, R7",140,R-US_R0603,R0603,"RESISTOR, American symbol",2,,Mouser,0.009,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1400Vvirtualkey66720000virtualkey667-ERJ-3EKF1400V
+"R9, R15, R27",10k,R-US_R0603,R0603,"RESISTOR, American symbol",3,,Mouser,0.009,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1002Vvirtualkey66720000virtualkey667-ERJ-3EKF1002V
+"R10, R11, R13, R22",0,R-US_R0603,R0603,"RESISTOR, American symbol",4,,Mouser,0.012,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3GEY0R00Vvirtualkey66720000virtualkey667-ERJ-3GEY0R00V
+R16,270,R-US_R0603,R0603,"RESISTOR, American symbol",1,,Mouser,0.02,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF2700Vvirtualkey66720000virtualkey667-ERJ-3EKF2700V
+"R20, R21, R23",1k,R-US_R0603,R0603,"RESISTOR, American symbol",3,DNP,Mouser,0.009,http://ca.mouser.com/Search/ProductDetail.aspx?R=ERJ-3EKF1001Vvirtualkey66720000virtualkey667-ERJ-3EKF1001V
+"R24, R25, R26",10k,R-US_R0603,R0603,"RESISTOR, American symbol",3,DNP,,,
+X1,12MHz,CX2520DB,SMD4-2520,,1,,Mouser,0.983,http://ca.mouser.com/Search/ProductDetail.aspx?R=CX2520DB12000C0WLSC1virtualkey58110000virtualkey581-CX2520DB1C0WLSC1
+"ECU-A, ECU-E",,353826-1,,K-Pro ECU Connector A and E,2,,Mouser,5.41,http://ca.mouser.com/Search/ProductDetail.aspx?R=353826-1virtualkey57100000virtualkey571-353826-1
+ECU-B,,353029-1,,K-Pro ECU Connector B,1,,Mouser,2.54,http://ca.mouser.com/Search/ProductDetail.aspx?R=353029-1virtualkey57100000virtualkey571-353029-1
